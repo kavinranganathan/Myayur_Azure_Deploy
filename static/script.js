@@ -1,6 +1,6 @@
 // Constants
 const CHAT_CONFIG = {
-    API_URL: "",  // Or your deployed URL
+    API_URL: "https://myayurbot.azurewebsites.net",  // Or your deployed URL
     BOT_NAME: 'MyAyur Health Assistant',
     TYPING_DELAY: 300,
     MAX_RETRIES: 3,
