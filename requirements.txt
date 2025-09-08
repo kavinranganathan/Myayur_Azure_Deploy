@@ -1,7 +1,9 @@
 fastapi
 toml
-uvicorn[standard]
+uvicorn
 phidata
 groq
-qdrant_client
+qdrant-client
+python-dotenv
 gunicorn
+jinja2
