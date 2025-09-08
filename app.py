@@ -330,6 +330,9 @@ async def stream_chat(question: Question):
             headers={"Content-Type": "text/event-stream"}
         )
 
+# This is the key addition - the application instance for Gunicorn
+application = app
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=3000, log_level="info")
