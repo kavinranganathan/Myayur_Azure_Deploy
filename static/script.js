@@ -1,6 +1,6 @@
 // Constants
 const CHAT_CONFIG = {
-    API_URL: "http://localhost:3000",  // Or your deployed URL
+    API_URL: "",  // Or your deployed URL
     BOT_NAME: 'MyAyur Health Assistant',
     TYPING_DELAY: 300,
     MAX_RETRIES: 3,
